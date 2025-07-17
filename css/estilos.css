@@ -1,0 +1,710 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #555 !important
+
+  }
+
+  .titulo-home
+  {
+    color:white;
+    font-size: 46px;
+    font-family:Arial, Helvetica, sans-serif
+  }
+  
+    .subtitulo-home
+  {
+    color:white;
+    font-weight:700;
+background-color: black;    
+margin:30px;
+padding:20px
+  }
+
+  p {
+
+    color: white
+  }
+
+  h2
+  {
+
+    color: white;
+    font-size:24px
+  }
+
+    h5
+  {
+
+    color: white;
+    font-size:14px
+  }
+
+  
+
+/* Nav */
+
+  nav {
+    background-color: #333;
+    padding: 15px 30px;
+  }
+
+  .elegida{
+    color:red !important;
+    font-weight: 900;
+  }
+
+  .nav-menu {
+    display: flex;
+    justify-content: space-between; /* separa los elementos */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-menu li {
+    color: white;
+  }
+
+  .nav-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    display: block;
+    transition: background 0.3s;
+  }
+
+  .nav-menu a:hover {
+    background-color: #555;
+  }
+
+  nav ul.nav-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #222;
+}
+
+nav ul.nav-menu li a {
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul.nav-menu li a:hover,
+nav ul.nav-menu li a.elegida {
+  background-color: #444;
+}
+
+/* Botones */
+
+
+  .button {
+  background-color: blueviolet; /* Verde */
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.button:active {
+  transform: scale(0.98);
+  background-color: #3e8e41;
+}
+
+/* Footer */
+
+
+
+footer {
+     display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 20px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+
+.footer-column1
+{
+  width:30%
+}
+
+.footer-column2
+{
+  width:40%
+}
+
+.footer-column3
+
+{
+  width:10%
+}
+
+.titulo-footer
+{
+  color:white;
+  font-size:18px;
+}
+
+ .social-section {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      padding: 10px;
+      background-color: #f5f5f5;
+    }
+
+    .social-section a svg {
+      width: 20px;
+      height: 20px;
+      fill: #333;
+      transition: fill 0.3s ease;
+    }
+
+    .social-section a:hover svg {
+      fill: #007bff;
+    }
+
+    /*clases home*/
+
+    .column-home {text-align:center;
+
+    }
+
+    .column-home-flex{
+      display:flex;
+      flex-direction:grid;
+      justify-content: space-evenly;
+
+    }
+
+    .column-home-flex-1
+    {
+      width:40%
+    }
+
+    .column-home-flex-2
+    {
+      width:40%
+    }
+
+    .boton-home
+    {
+      text-align:center;
+      margin:20px
+    }
+
+   .titulo-pelis
+   {
+    color:white
+   }
+
+      .titulo-series
+   {
+    color:white
+   }
+
+  .hover-pelicula {
+transition: box-shadow 0.3s ease;
+  display: block; 
+  border-radius: 20px; }
+
+.hover-pelicula:hover {
+  box-shadow: 0 4px 100px rgba(128, 0, 128, 7.5); 
+}
+
+
+  .hover-serie {
+transition: box-shadow 0.3s ease;
+  display: block; 
+  border-radius: 20px; }
+
+.hover-serie:hover {
+  box-shadow: 0 4px 120px rgba(0, 128, 0, 0.5); 
+   }
+
+
+    /*clases peliculas y series*/
+
+    
+    .column-pelis-flex{
+      display:flex;
+      flex-direction:row;
+      justify-content: space-evenly;
+      background-color:lightgray;
+      margin:20px;
+      padding-top:20px
+
+
+    }
+
+.card-titulo
+
+{
+  color: white !important
+}
+
+.card-parrafo
+{
+  color: white !important
+}
+
+.puntaje
+{
+    color: white !important
+
+
+}
+
+
+
+.fondo-pelis {
+  background-color:#555;
+  margin:10px;
+
+}
+
+
+
+    .titulo-peliculas {
+
+      color:white;
+      text-align:center
+      }
+    
+      .column-pelis-flex-1
+    {
+      width:10%;
+      border:#333;
+    }
+
+    .column-pelis-flex-2
+    {
+      width:10%;
+            border:#333
+
+    }
+
+    .botonespeliculas {
+
+    display: flex;
+    justify-content: space-around;
+    gap: initial;
+    background-color: gray;
+    align-content: space-around;
+    color:white;
+    margin:10px
+}
+
+.bloque_peli {
+  margin:20px;
+}
+
+
+.peliculas-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr); 
+  gap: 40px;
+  padding: 30px;
+  margin: 40px;
+  align-content: space-evenly;
+  justify-content: start;
+}
+
+.espaciocondescuento{
+  margin-top:40px
+}
+
+.catalogo
+{color:whitesmoke;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 24px;
+font-weight: 600;
+
+
+}
+
+
+
+    /*clases contacto*/
+
+    .nombre {
+      background-color:white
+    }
+
+    .bloque-contacto{
+      padding:20px;
+      max-width:350px
+    }
+
+
+     footer {
+    background-color: #333;
+  }
+
+  /* Inputs */
+.form-control {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* Labels */
+.form-label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color:white
+}
+
+/* Textarea */
+textarea.form-control {
+  resize: vertical;
+}
+
+/* Botón */
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  width: 100%;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Reseñas */
+
+.reseñas {
+  padding: 3rem 1rem;
+  background-color: #fafafa;
+  text-align: center;
+}
+
+.titulo-reseñas {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.reseñas-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.reseña-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  max-width: 300px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.reseña-card:hover {
+  transform: translateY(-5px);
+}
+
+.reseña-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.reseña-card h3 {
+  margin: 0.5rem 0 0.25rem;
+  font-size: 1.1rem;
+  color: #111;
+}
+
+.reseña-card .estrellas {
+  font-size: 1.2rem;
+  color: #f5b301;
+  margin-bottom: 1rem;
+}
+
+.reseña-card p {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.4;
+}
+
+    /*Footer*/
+
+
+  footer {
+    display: flex;
+    align-items: flex-start;
+    padding: 2rem 1rem;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: flex-start;
+    background-color: #333;
+  }
+
+  .footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.footer-column1,
+.footer-column2,
+.footer-column3 {
+  flex: 1 1 300px;
+}
+
+    /*Carrito*/
+
+    #CarritoCompras {
+  display: none; 
+}
+
+#CarritoCompras {
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #f9f9f9; 
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#CarritoCompras h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.lista-carrito {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.lista-carrito li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
+}
+
+.lista-carrito li span {
+  flex: 1;
+  font-size: 14px;
+  color: #444;
+}
+
+.lista-carrito button {
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.lista-carrito button:hover {
+  background-color: #c2185b;
+}
+
+.total-carrito, .cantidad-carrito {
+  font-weight: bold;
+  text-align: right;
+  color: #222;
+}
+
+.carrito{
+  padding-bottom:10px
+}
+
+.bloque-carrito-de-compra
+{
+  background-color: white;
+}
+
+
+
+
+
+
+    /*Media Queries*/
+
+ @media (max-width: 768px) {
+
+  .column-home-flex {
+        display: flex;
+        justify-content: center;
+        align-content: space-around;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+  .column-home-flex-1 {
+    width: 20px;
+  }
+
+    .column-home-flex-2 {
+    width: 20px;
+  }
+ }
+
+  @media (max-width: 600px) {
+  nav ul.nav-menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .column-home-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  iframe {
+    height: 250px;
+    max-width:350px
+
+  }
+
+  .card-imagen
+  {
+    max-width:230px
+  }
+
+
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.footer-column1,
+.footer-column2,
+.footer-column3 {
+  flex: 1 1 300px;
+}
+
+
+     iframe {
+     max-width:600px
+   }
+
+/* Redes sociales */
+.social-section a {
+  margin-right: 15px;
+  color: #333;
+}
+
+/* Responsive extra */
+  nav ul.nav-menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .column-home-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  iframe {
+    height: 250px;
+  }
+
+  .botonespeliculas 
+ 
+    {
+      
+    display: flex;
+    justify-content: space-between;
+    gap: inherit;
+    background-color: gray;
+    align-content: stretch;
+    color: white;
+    margin: 10px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.peliculas-grid {
+  display: block;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 40px;
+  padding: 30px;
+  margin: 40px;
+  align-content: space-evenly;
+  justify-content: start;
+}
+
+.espaciocarrito { 
+margin-top:20px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
