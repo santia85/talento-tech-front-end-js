@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+
+
+
+    <title>Sitio web de peliculas y series</title>
+
+</head>
+<body class="body-contacto">
+
+    <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="peliculas.html">Peliculas</a></li>
+          <li><a href="series.html">Series</a></li>
+          <li><a class="elegida" href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+
+
+<div class="container bloque-contacto">
+  <div class="row justify-content-center">
+    <div>
+        <h2>Contáctanos</h2>
+        <form   action="https://formspree.io/f/xldbegow"
+  method="POST">
+          <div class="mb-3">
+            <label for="nombre" class="form-label" ></label>
+            <input type="text" class="form-control" id="caca" placeholder="Tu nombre" name="name">
+          </div>
+              <div class="mb-3">
+            <label for="pelicula" class="form-label">Serie o pelicula por la que consultas</label>
+            <input type="text" class="form-control" id="pelicula" placeholder="Pelicula o serie" name="pelicula">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Correo electrónico</label>
+            <input type="email" class="form-control" id="email" placeholder="tu@email.com" name="email">
+          </div>
+          <div class="mb-3">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Enviar</button>
+          
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<script src="js/scripts.js"></script>
+
+</body>
+</html>

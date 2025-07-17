@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+
+
+
+    <title>Sitio web de peliculas y series</title>
+
+</head>
+<body>
+
+    <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a class="elegida" href="peliculas.html">Peliculas</a></li>
+          <li><a href="series.html">Series</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+
+
+
+ 
+<div class="fondo-pelis">
+
+        <h2 class="titulo-peliculas">Estas son las peliculas que tenemos para ofrecerte</h2>
+
+          <div class="botonespeliculas"> 
+
+
+          
+
+<div class="bloque_peli">
+<h5 class="catalogo">Peliculas adultos</h5>
+
+ <img class="card-imagen" src="Imagenes/peliculas/bettlejuice.jpg" width="300px"/>
+
+<p>Descubre el catalogo  de peliculas para adultos que tenemos para ofrecerte </p>
+
+<a href="#pelicula" id="miBoton" class="button" onclick="mostrarPeliculasgrandes();">Ver para adultos</a>
+
+
+<div class="espaciocondescuento">
+
+<a href="#pelicula" id="miBotoncondescuento" class="button" onclick="mostrarPeliculasGrandesConDescuento();">Ver con descuento</a>
+
+</div>
+
+</div>      
+
+
+<div class="bloque_peli">
+<h5 class="catalogo">Peliculas chicos</h5>
+
+ <img class="card-imagen" src="Imagenes/peliculas/mipobreangelito.jpg" width="300px"/>
+
+
+<p>Descubre el catalogo  de peliculas para adultos que tenemos para ofrecerte</p>
+
+              <a href="#pelicula" id="miBoton" class="button" onclick="mostrarPeliculaschicos()">Ver para chicos</a>
+<div class="espaciocondescuento">
+              <a href="#pelicula" class="button" onclick="mostrarPeliculaschicoscondescuento();">Ver con descuento</a>
+</div>
+
+
+</div> 
+
+          </div>
+
+
+        </div>
+
+<div id="pelicula" class="peliculas-grid">
+
+
+
+</div>
+
+
+  
+<div id="CarritoCompras" class="peliculas-grid">
+
+
+
+</div>
+
+<script src="js/script_peliculas.js"></script>
+
+</body>
+</html>
