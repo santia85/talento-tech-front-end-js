@@ -654,13 +654,14 @@ button[type="submit"]:hover {
 
 
      iframe {
-     max-width:600px
+     max-width:140px
    }
 
 /* Redes sociales */
 .social-section a {
   margin-right: 15px;
   color: #333;
+   max-width:140px
 }
 
 /* Responsive extra */
@@ -693,7 +694,7 @@ button[type="submit"]:hover {
     background-color: gray;
     align-content: stretch;
     color: white;
-    margin: 10px;
+    margin: 40px;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: flex-start;
